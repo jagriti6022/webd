@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>Flexbox</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        flex-wrap:nowrap;
+        height: 400px;
+        width: 100%;
+        border: solid 2px black;
+        align-content:flex-start;
+        }
+    .items{
+        width: 80px;
+        height: 75px;
+        color: brown;
+        border: solid 3px blueviolet;
+        text-align:center
+    }
+    #item1{
+        background-color: rgb(226, 43, 180);
+        /*flex-basis: 200px; /*just like max height*/
+        /*align-self: center; /*align each item*/
+        flex-flow: column wrap;
+    }
+    #item2{
+        background-color: rgb(225, 124, 124);
+        order: 4;
+        flex-shrink: 2;
+        align-self: flex-end;
+    }
+    #item3{
+        background-color: rgb(43, 226, 58);
+        flex-shrink: 8;
+        flex:2 3 250px;
+    }
+    #item4{
+        background-color: rgb(43, 226, 217);
+        order: 2;
+    }
+    #item5{
+        background-color: rgb(226, 208, 43);
+        order:8;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="items" id="item1">box 1</div>
+        <div class="items" id="item2">box 2</div>
+        <div class="items" id="item3">box 3</div>
+        <div class="items" id="item4">box 4</div>
+        <div class="items" id="item5">box 5</div>
+        <div class="items" id="item6">box 6</div>
+        <div class="items" id="item7">box 7</div>
+        <div class="items" id="item8">box 8</div>
+        <div class="items" id="item9">box 9</div>
+        <div class="items" id="item10">box 10</div>
+        </div>
+</body>
+</html>

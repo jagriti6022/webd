@@ -1,0 +1,24 @@
+table,th,tr,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    border-color: blueviolet;
+    border-style: dotted;
+    border-width: 1vmin;
+    border-spacing: 1vmax;
+    margin-left: 40%;
+
+}
+.report{
+    background-color: rgb(240, 12, 244);
+}
+tr{
+    background-color: rgb(224, 123, 197);
+}
+td{
+    background-color: aqua;
+    border-spacing: 1vmax;
+}
+.foot{
+    background-color: coral;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        .hide{
+            display: none;
+        }
+        .mydiv:hover + .hide{
+            display: block;
+            color: red;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="mydiv">Hover on me.</div>
+    <div class="hide">On hovering i am shown.</div>
+</body>
+</html>

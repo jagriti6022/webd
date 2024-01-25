@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Styling Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form action="">
+        <h1>Payment form</h1><hr style="border: 1px solid;">
+        <h3 style="text-decoration: underline;">Contact details</h3>
+        <p>Name: *<input type="text" name="name" required placeholder="Jagriti Singh"></p>
+        <fieldset>
+            <legend>Gender *</legend>
+        
+        <p>Male <input type="radio" name="gender" id="gender" required> Female <input type="radio" name="gender" required id="gender">Other<input type="radio" name="gender" required id="gender"></p></fieldset>
+        <p>Address: <textarea name="address" id="address" cols="100" rows="10"></textarea></p>
+        <p> Email: * <input type="email" name="email" id="email" required placeholder="sonamsingh@gmail.com"></p>
+        <p> Pincode: * <input type="password" name="pin" id="pin" required placeholder="123456"></p>
+        <h3 style="text-decoration: underline;">Payment details</h3>
+        <p>Card type *
+            <select name="card" id="card" required>
+                <option value="">--select a card type--</option> 
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="rupay">Rupay</option>
+            </select>
+        </p>
+        <p>Card Number: * <input type="number" name="card" id="card" required placeholder="1234-1234-1234"></p>
+        <p>Expiration date: * <input type="date" name="exp" id="exp" required></p>
+        <p class="cvv">CVV: * <input type="password" name="cvv" id="cvv" required placeholder="***"></p>
+        <div class="hov">
+            CVV is a 3-digit code present at the back of your debit card.
+        </div>
+        <input type="submit" value="Pay now">
+        </form>
+</body>
+</html>

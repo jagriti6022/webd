@@ -1,0 +1,45 @@
+/*type selector*/
+li{
+    color: green;
+    font-weight: bolder;
+    font-family: cursive;
+    list-style: circle;
+}
+/* id selector*/
+#idname{
+    color:cornflowerblue;
+    font-size: xx-large;
+}
+/*pseudo class selectors*/
+a:hover{
+    color: brown;
+    text-decoration: wavy;
+}
+a:visited{color:purple}
+/*class selector*/
+/*.para{
+    color:aqua;
+    font-size: 100%;
+}*/
+p+b,p>em{
+    color: crimson;
+    font-style: oblique;
+}
+/*class selector*/
+/*.para{
+    color: darkgoldenrod;
+}*/
+/*h1.para{
+    color: darkmagenta;
+    font-weight: bold;
+}*/
+/* attribute selector*/
+li[class="b"]{
+    color: brown;
+    text-decoration: double;
+    background-color: aqua;
+}
+
+body p.para{
+    color: red;
+}

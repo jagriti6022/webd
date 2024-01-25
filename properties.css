@@ -1,0 +1,6 @@
+.war2{
+    background-color: aqua; /*name of color*/
+    color: #0d17dad8;    /* #rrggbbalpha  alpha for opacity.*/
+    border-color: rgba(255, 0, 43, 0.513);  /* rgb(r,g,b,alpha)*/
+    font-size: bold;
+}
